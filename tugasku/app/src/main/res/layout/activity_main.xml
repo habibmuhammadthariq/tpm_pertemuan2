@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:paddingTop="20px"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi Habib Muhammad Thariq"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btn_keliling"
+        android:layout_gravity="center"
+        android:layout_width="280px"
+        android:layout_height="wrap_content"
+        android:text="Keliling"/>
+
+
+    <Button
+        android:id="@+id/btn_luas"
+        android:layout_gravity="center"
+        android:layout_width="280px"
+        android:layout_height="wrap_content"
+        android:text="Luas"/>
+
+</LinearLayout>
